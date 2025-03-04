@@ -1,0 +1,177 @@
+
+body {
+    margin: 0;
+}
+
+.hero-section {
+    background-image: url(images/orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f99501;
+}
+
+.p-and-a {
+    margin-left: 15rem;
+}
+
+.hero-section p {
+    font-size: 46px;
+    font-weight: 400;
+    font-family: "Salsa", cursive;
+    max-width: 550px;
+
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+    background-color:#FBD8A4;
+    color: #000;
+}
+.a-container{
+    font-family: "Salsa", cursive;
+    max-width: max-content;
+    background-color:#FBD8A4;
+    color: #000;
+    border-radius: 35px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-left: 20px;
+}
+.jalhar{
+    width: 220px;
+    margin-bottom: -200px;
+
+}
+@media(max-width: 815px){
+    .deppak1{
+        display: block;
+        margin-left: auto;
+    }
+    .deepak2{
+        display: none;
+    }
+    .p-and-a{
+        margin-left: 1rem;
+    }
+    .jalhar{
+        margin-bottom: 0;
+    }
+    .card p{
+        font-size: 1.25rem;
+    }
+    .girl{
+        max-width: 160px;
+    }
+    .card{
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
+    .laksmi-ganesh-card{
+        padding: 2rem;
+    }
+}
+@media(max-width: 500px){
+    .micon{
+        display: none;
+    }
+    .hero-section p{
+        font-size: 32px;
+    }
+    deepak1{
+        width: 100%;
+        max-width: 280px;
+    }
+    .lakshmi-ganesh h2{
+        font-size: 32px;
+    }
+    .card p{
+        font-size: 1rem;
+    }
+    
+}
+.lakshmi-ganesh{
+    background-color: #f99501;
+    padding-block: 1px;
+
+    padding-inline: 1rem;
+}
+.lakshmi-ganesh-img{
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+
+}
+.horizontal-divider{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 810px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+   
+}
+.horizontal-line{
+    height: 2px;
+    width: 468px;
+    background-color:#FBD8A4;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color:#FBD8A4;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.lakshmi-ganesh h2{
+    font-family: "Style Script", cursive;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.card-container{
+    display: flex;
+    margin-bottom:2rem ;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width: 500px;
+    padding: 4rem;
+    border-radius: 25px;
+    background-color: white;
+}
+.card p{
+    font-size: 2rem;
+}
+.girl{
+    max-width: 260px;
+    margin-left: -5rem;
+}
+.laksmi-ganesh-card{
+    background-color: white;
+    padding: 4rem;
+    border-radius: 24px;
+    max-width: 772px;
+    display:flex;
+
+}
+.laksmi-ganesh-card img{
+    width: 50%;
+    margin-inline: auto;
+}
+.ty{
+    width: 100%;
+    max-width: 900px;
+    margin-inline: auto;
+}
+.ty h2{
+    text-align: left;
+}
+.credit{
+    text-align: right;
+    font-size: 14px;
+}
